@@ -70,6 +70,12 @@ export default {
         }
       }
       this.addPet(payload)
+      // RESET FORMDATA AFTER SUBMIT
+      this.formData = {
+        name: '',
+        age: 0,
+        species: null
+      }
     }
   },
   computed: {
