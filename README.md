@@ -7,4 +7,4 @@
 
 4.Basic CRUD operations for stage management operations. 
 
-5.Two pages for Cats and Dogs, both showing tables of cat and dog names and other meta data,upon click on names details of that animal appears in a single page.
+5.Two pages for Cats and Dogs, both showing tables of cat and dog names and other meta data,upon click on names details of that animal appears in a single page. 

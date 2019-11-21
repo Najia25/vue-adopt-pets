@@ -20,6 +20,35 @@ export default {
     return {}
   },
   computed: {
+    // state: {
+    //    user: 'Tom',
+    //    age: 25
+    //  }
+
+    // mapState(['user', 'age'])
+
+    // returns:
+    // {
+    //   user () {
+    //     return this.$store.state.user
+    //   },
+    //   age () {
+    //     return this.$store.state.age
+    //   }
+    // }
+    // [1] CALL AN ACTION FROM A COMPONENT, ACTIONS ARE ASYNCHRONOUS [2] AFTER THAT CALL A MUTATION, MUTATION UPDATES STATE [3] WHATEVER COMPONENTS ARE LISTENING TO STATE BY MAPPING THE STATES TO A COMPUTED FUNCTION, THOSE COMPONENTS WILL UPDATE IN THE DOM WHERE ITS NEEDED.
+    // ...mapState(['user', 'age'])
+
+    // returns:
+    // {
+    // computed:{
+    //   user () {
+    //     return this.$store.state.user
+    //   },
+    //   age () {
+    //     return this.$store.state.age
+    //   }
+    // }
     ...mapState([
       'dogs'
     ])

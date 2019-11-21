@@ -13,7 +13,7 @@
 </template>
 
 <script>
-// @ is a shortcut for src directory, used instead of ../../
+
 import { mapState } from 'vuex'
 
 export default {

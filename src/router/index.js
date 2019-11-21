@@ -24,6 +24,9 @@ const routes = [
     component: Dogs
   },
   {
+    // <router-link :to="`/pets/dogs/${data.index}`">
+    // values for the dynamic segments :species,:id are passed from the links to pets details
+    // from cats.vue,dogs.vue table
     path: '/pets/:species/:id',
     name: 'pet',
     component: Pet
